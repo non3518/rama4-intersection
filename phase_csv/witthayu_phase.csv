@@ -1,0 +1,17 @@
+start,end,lanes,phase
+east,east,1,0
+east,north,2,1
+east,south,1,0
+east,west,2,1
+north,east,1,0
+north,north,0.5,2
+north,south,3,2
+north,west,1.5,2
+south,east,2,3
+south,north,3,3
+south,south,1,0
+south,west,1,0
+west,east,2,4
+west,north,1,0
+west,south,1,4
+west,west,1,0

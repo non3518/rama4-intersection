@@ -1,0 +1,17 @@
+,start,end,count
+0,east,east,3
+1,east,north,1
+2,east,west,141
+3,north,east,1
+4,north,north,1
+5,north,south,33
+6,north,west,115
+7,south,north,14
+8,south,south,4
+9,south,west,11
+10,west,east,84
+11,west,north,20
+12,west,south,35
+13,west,west,17
+14,east,south,0
+15,south,east,0
