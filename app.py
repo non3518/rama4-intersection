@@ -20,7 +20,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 colors = {
-    'background': '#ff00ff',
+    'background': '#ffffff',
     'text': '#000000'
 }
 
@@ -404,6 +404,17 @@ app.layout = html.Div(style={'backgroundColor': colors['background'],
             children = [
                     html.Div(
                             children='Rama IV Road Traffic Analysis',
+                            style={
+                                'textAlign': 'center',
+                                'font-family': 'arial',
+                                'color': colors['text'],
+                                'margin' : 'auto',
+                                'padding' : 10,
+                                'font-size' : 24
+                            }
+                      ),
+                     html.Div(
+                            children='Traffic Analysis',
                             style={
                                 'textAlign': 'center',
                                 'font-family': 'arial',
