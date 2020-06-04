@@ -478,7 +478,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background'],
                                                         options = [
                                                             {'label': 'All weekdays', 'value': 'all_weekday'},
                                                             {'label': 'All weekends', 'value': 'all_weekend'},
-                                                            #{'label': 'Normal Mondays', 'value': 'normal_monday'},
+                                                            {'label': 'Normal Mondays', 'value': 'normal_monday'},
                                                             {'label': 'Normal Fridays', 'value': 'normal_friday'}
                                                             ],
                                                         value = 'all_weekday',
