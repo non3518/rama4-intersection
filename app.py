@@ -413,17 +413,6 @@ app.layout = html.Div(style={'backgroundColor': colors['background'],
                                 'font-size' : 24
                             }
                       ),
-                     html.Div(
-                            children='Traffic Analysis',
-                            style={
-                                'textAlign': 'center',
-                                'font-family': 'arial',
-                                'color': colors['text'],
-                                'margin' : 'auto',
-                                'padding' : 10,
-                                'font-size' : 24
-                            }
-                      ),
                     html.Div(
                              children='Total counts of Grab Taxis for each group of date in the peak time.', 
                              style={
@@ -489,7 +478,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background'],
                                                         options = [
                                                             {'label': 'All weekdays', 'value': 'all_weekday'},
                                                             {'label': 'All weekends', 'value': 'all_weekend'},
-                                                            {'label': 'Normal Mondays', 'value': 'normal_monday'},
+                                                            #{'label': 'Normal Mondays', 'value': 'normal_monday'},
                                                             {'label': 'Normal Fridays', 'value': 'normal_friday'}
                                                             ],
                                                         value = 'all_weekday',
